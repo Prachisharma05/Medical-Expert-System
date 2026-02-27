@@ -1,0 +1,90 @@
+{
+  "diseases": {
+    "common_flu": {
+      "display_name": "Common Flu (Influenza)",
+      "description": "A common viral respiratory illness caused by influenza viruses.",
+      "severity": "low",
+      "recommended_action": "Rest, stay hydrated, take OTC fever reducers. See a doctor if symptoms worsen after 5 days.",
+      "symptoms": [
+        "low_grade_fever", "moderate_fever", "cough", "sore_throat", "runny_nose",
+        "body_ache", "fatigue", "headache", "chills", "sneezing"
+      ],
+      "danger_signs": ["difficulty_breathing", "chest_pain", "confusion"]
+    },
+    "dengue": {
+      "display_name": "Dengue Fever",
+      "description": "A mosquito-borne viral disease causing high fever and severe pain.",
+      "severity": "high",
+      "recommended_action": "Seek immediate medical attention. Monitor platelet count. Avoid aspirin/ibuprofen. Stay well hydrated.",
+      "symptoms": [
+        "high_fever","moderate_fever", "severe_headache", "pain_behind_eyes", "joint_pain",
+        "muscle_pain", "rash", "nausea", "vomiting", "mild_bleeding",
+        "fatigue", "low_platelet"
+      ],
+      "danger_signs": ["severe_bleeding", "plasma_leakage", "organ_impairment"]
+    },
+    "malaria": {
+      "display_name": "Malaria",
+      "description": "A life-threatening disease caused by Plasmodium parasites transmitted by mosquitoes.",
+      "severity": "high",
+      "recommended_action": "Seek immediate medical care. Blood smear test required. Antimalarial drugs needed. Do not self-medicate.",
+      "symptoms": [
+        "high_fever", "moderate_fever", "chills", "sweating", "headache", "nausea",
+        "vomiting", "muscle_pain", "fatigue", "shivering",
+        "cyclical_fever", "anemia", "enlarged_spleen"
+      ],
+      "danger_signs": ["cerebral_malaria", "severe_anemia", "organ_failure"]
+    },
+    "typhoid": {
+      "display_name": "Typhoid Fever",
+      "description": "A bacterial infection caused by Salmonella typhi, spread through contaminated food/water.",
+      "severity": "medium",
+      "recommended_action": "See a doctor immediately for antibiotic treatment. Maintain hydration. Avoid solid food initially. Practice strict hygiene.",
+      "symptoms": [
+        "sustained_fever", "high_fever", "moderate_fever","weakness", "abdominal_pain",
+        "headache", "loss_of_appetite", "constipation", "diarrhea",
+        "rose_spots", "enlarged_liver", "fatigue", "slow_heart_rate"
+      ],
+      "danger_signs": ["intestinal_perforation", "internal_bleeding", "encephalopathy"]
+    }
+  },
+
+  "symptoms_display": {
+    "low_grade_fever":   "Low Grade Fever (99-101 F)",
+    "moderate_fever":    "Moderate Fever (101-103 F)",
+    "high_fever":        "High Fever (above 103 F)",
+    "sustained_fever":   "Sustained/Prolonged Fever (3+ days)",
+    "cyclical_fever":    "Cyclical Fever (comes and goes every 48-72 hrs)",
+    "chills":            "Chills",
+    "shivering":         "Shivering / Rigors",
+    "sweating":          "Profuse Sweating after fever",
+    "cough":             "Cough",
+    "sore_throat":       "Sore Throat",
+    "runny_nose":        "Runny Nose / Nasal Congestion",
+    "sneezing":          "Sneezing",
+    "headache":          "Headache (mild to moderate)",
+    "severe_headache":   "Severe Headache",
+    "pain_behind_eyes":  "Pain Behind the Eyes",
+    "body_ache":         "Body Ache",
+    "muscle_pain":       "Muscle Pain / Myalgia",
+    "joint_pain":        "Joint Pain / Arthralgia",
+    "fatigue":           "Fatigue / Tiredness",
+    "weakness":          "General Weakness",
+    "nausea":            "Nausea",
+    "vomiting":          "Vomiting",
+    "diarrhea":          "Diarrhea",
+    "constipation":      "Constipation",
+    "abdominal_pain":    "Abdominal / Stomach Pain",
+    "loss_of_appetite":  "Loss of Appetite",
+    "rash":              "Skin Rash",
+    "rose_spots":        "Rose-colored Spots on Skin",
+    "mild_bleeding":     "Mild Bleeding (gums, nose)",
+    "low_platelet":      "Low Platelet Count (lab confirmed)",
+    "anemia":            "Anemia (lab confirmed)",
+    "enlarged_spleen":   "Enlarged Spleen",
+    "enlarged_liver":    "Enlarged Liver",
+    "slow_heart_rate":   "Unusually Slow Heart Rate",
+    "difficulty_breathing": "Difficulty Breathing",
+    "chest_pain":        "Chest Pain"
+    }
+}
